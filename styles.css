@@ -1,0 +1,72 @@
+/*style.css*/
+body{
+    background-image: url(Universe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+margin: 0;
+padding: 0;
+background-color: #444;
+text-align: center;
+}
+nav a {
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, rgba(0.5 0.5 0.5)50% rgba(0.5 0.5 0.5)50%), url(images/Computer.jpeg);
+}
+h1 {
+text-align: center;
+margin-top: 20px;
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+label , input , textarea {
+display: block;
+margin-bottom: 10px;
+}
+.button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
